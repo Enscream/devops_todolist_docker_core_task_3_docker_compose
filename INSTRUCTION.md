@@ -1,8 +1,17 @@
-# Django TodoList - Docker Setup
-
-## 📦 Build and start containers
-
-Run the following command to build and start the application:
+# Run project
 
 ```bash
-docker-compose up --build
+docker compose up --build
+```
+
+# Stop containers
+
+```bash
+docker compose down
+```
+
+# Stop containers and remove volumes
+
+```bash
+docker compose down -v
+```
